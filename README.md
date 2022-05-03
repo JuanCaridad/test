@@ -6,7 +6,7 @@ Cyrille Bernabe, Louis Doherty, Juan Caridad, Rommel Macatlan Jr., Aitor Navarte
 ## About RockFIIT
 Our creators all have a background in some sort of fitness, some of us are rock climbers, some of us are weightlifters, but some of us are both. The goal of RockFIIT, was to create an application that merged both these aspects of fitness together. Creating one centralized application where climbers and lifters could log their exercises, create their own programs and set their own fitness goals. 
 
-### RockFIIT Functionalities
+##### RockFIIT Functionalities
 
 
 
