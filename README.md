@@ -1,6 +1,7 @@
 # cs426 - RockFIIT
 
-# Created by: Cyrille Bernabe, Louis Doherty, Juan Caridad, Rommel Macatlan Jr., Aitor Navarte
+# Authors
+Cyrille Bernabe, Louis Doherty, Juan Caridad, Rommel Macatlan Jr., Aitor Navarte
 
 # Project Description
 
