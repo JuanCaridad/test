@@ -31,8 +31,29 @@ Our creators all have a background in some sort of fitness, some of us are rock 
    - Settings Screen
      - Sign Out button that lets the user log out of their account
      - Change password button, allows the user to change their password and if password changed logs them out and has them resign in
+2. Technology Stack
+   - Frontend(React Native)
+     - Used to have the ability to create an application that works with both Android and iOS 
+   - Server API(Python/Flask)
+     - In order for the application to communicate to the backend we needed to create an API server
+     - The entire serverAPI file was written in python, and since Louis Doherty has had experience using python he decided it was the easiest way to create our server
+     - Utilizing pythons Flask module, we were able to get the API routes, from the backend to frontend
+   - Backend(SQLite Database)
+     - SQLite databases allow for small memory size, so alongside fullstack development we wanted to minimize the memory size of the application as much as possible
+     - Also used it for the Atomicity that SQLite provides
+3. Challenges
+   - Most of our team had little to none experience with react native, so in the beginning it was difficult for us to create a fully fucntioning application that not only looked good, but performed well also.
+   - We also had almost no experience in creating a server API that could communicate between our frontend and backend, so creating that and implementing the actual connection between React Native and our SQLite databse was tough.
+   - Also with many other classes and projects our team had times where we weren't all able to meet together, making it harder to work out bugs and create new ideas
+4. Future Implementation
+   - Creating a Dynamic graph for the homescreen that users would be able to select an exercise that they have logged and check the progress that they have made
+   - Progression Tracker that takes in users workout data, and is able to calculate how far the user is from their goals
+   - More programs and exercises not just for bodybuilding/rock climbing, but for other types of fitness like crossfit, powerlifting, and olympic weightlifting
+   - Integrating a social media aspect where users are able to share their workouts and exercises, so other users can see their progress or critique their form
+   - Add video links to the exercises so new lifter/climbers could see how to properly perform the workout
 
 
+## Installation and How to Run
 IMPORTANT: In order to run...
   You will need node.js and expo installed. Clone repository (or simply download rockfiit folder), and enter the rockFIIT folder using your terminal. Run npm install to install expo to the project. Then simply run npm start, and open the project on an emulator or your mobile device.
   
